@@ -19,3 +19,24 @@ button{
 span{
     font-size: 20px;
 }
+.button{
+    text-align: center;
+    
+}
+h4{
+    color: grey;
+}
+.section1{
+    background-image:url("./images/#hero-cover.3.png");
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.button button {
+    border-radius: 15px;
+    height: 35px;
+    border: 1px solid white;
+}
+.button :last-child{
+    background-color: transparent;
+}
