@@ -1,11 +1,21 @@
 .header{
     display: flex;
     justify-content: space-around;
-    color: white;
+    
 }
 button{
     background-color: #23A6F0;
     border-radius: 3px;
-    height: 25px;
+    height: 35px;
     border: 0 solid;
+}
+.home {
+    word-spacing: 20px;
+}
+.log{
+    margin-right: 20px;
+    word-spacing:20px ;
+}
+span{
+    font-size: 20px;
 }
