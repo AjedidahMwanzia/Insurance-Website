@@ -51,3 +51,43 @@ button{
 .button :last-child{
     background-color: transparent;
 }
+.container {
+    
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+       
+}
+.peace{
+    text-align:center;
+    width: 15%;
+   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+    margin: 2% ;
+    padding: 5% 2%;
+    border-radius: 2vw;
+    
+     
+}
+.life{
+    text-align:center;
+    width: 15%;
+   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+    margin: 2% ;
+    padding: 5% 2%;
+    border-radius: 2vw;
+
+}
+.satisfaction{
+      
+    text-align:center;
+    width: 15%;
+   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+    margin: 2% ;
+    padding: 5% 2%;
+    border-radius: 2vw;
+    background-color: #23A6F0;
+    color: white;
+}
