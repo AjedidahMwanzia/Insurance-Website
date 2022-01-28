@@ -1,42 +1,53 @@
 .header{
     display: flex;
     justify-content: space-around;
-    
+    color: white;
 }
 button{
     background-color: #23A6F0;
     border-radius: 3px;
     height: 35px;
     border: 0 solid;
+    color: white;
 }
 .home {
     word-spacing: 20px;
+    font-size: 20px;
 }
 .log{
     margin-right: 20px;
     word-spacing:20px ;
-}
-span{
     font-size: 20px;
+}
+.header span{
+    font-size: 40px;
 }
 .button{
     text-align: center;
-    
+    align-items: center;
+    padding: 100px;
+   
+}
+
+h3{
+    font-weight: bold;
+    font-size: 60px;
 }
 h4{
-    color: grey;
+    font-size: 20px;
 }
 .section1{
-    background-image:url("./images/#hero-cover.3.png");
-  height: auto;
+ background-image:url('/images/hero-cover.png');
+ height: 800px;
   background-repeat: no-repeat;
   background-size: cover;
+  color: white;
 }
 .button button {
     border-radius: 15px;
     height: 35px;
     border: 1px solid white;
-}
+    }
 .button :last-child{
     background-color: transparent;
 }
