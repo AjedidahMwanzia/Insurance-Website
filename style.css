@@ -214,16 +214,15 @@ header{
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 10%;
+    margin-top: 10%;
 }
 #free {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    
     
 }
 #standard{
@@ -239,28 +238,35 @@ header{
 .free{
     border: 1px solid green;
     border-radius: 10px;
-    width: 20%;
+    width: 15%;
     text-align: center;
     box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
     background-color: white;
-    padding: 3%;
+    padding: 1%;
 
 }
 .standard{
     border: 1px solid green;
     border-radius: 10px;
-    width: 20%;
+    width: 15%;
     text-align: center;
     box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
-    background-color: white;
-    padding: 3%;
+    background-color: rgb(10, 10, 63);
+    padding: 1%;
+    color: white;
 }
 .premium{
     border: 1px solid green;
     border-radius: 10px;
-    width: 20%;
+    width: 15%;
     text-align: center;
     box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
     background-color: white;
     padding: 1%;
+}
+.list button{
+    width: 30%;
+    margin: 15%;
+    align-items: center;
+    margin-left: 30%;
 }
