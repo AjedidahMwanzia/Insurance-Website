@@ -116,6 +116,10 @@ header{
 #industry h3{
     font-weight: bold;
     font-size: 40px;
+    color: rgb(0, 0, 0, 0.8);
+}
+#industry p{
+    color: rgb(0, 0, 0, 0.7);
 }
 .cards{
     justify-content: space-around;
@@ -191,4 +195,18 @@ header{
     color: grey;
     
    
+}
+.pricing {
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'montserrat';
+}
+.pricing p{
+    
+    color: rgb(0, 0, 0, 0.7);
+}
+.pricing h3{
+    color: rgb(0, 0, 0, 0.8);
+    font-weight: bold;
+    font-size: 150%;
 }
