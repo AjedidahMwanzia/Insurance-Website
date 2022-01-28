@@ -37,12 +37,8 @@ button{
     font-size: 20px;
 }
 .section1{
- background-image:url('/images/hero-cover.png');
- height: 800px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-}
+     color: white;
+  }
 .button button {
     border-radius: 15px;
     height: 35px;
@@ -54,40 +50,43 @@ button{
 .container {
     
         width: 100%;
-        height: auto;
+        height: 20%;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+        position: absolute;
        
 }
 .peace{
     text-align:center;
-    width: 15%;
-   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+    width: 20%;
     margin: 2% ;
-    padding: 5% 2%;
-    border-radius: 2vw;
+    padding: 3% 2%;
+    background-color: white;
+    
     
      
 }
 .life{
     text-align:center;
-    width: 15%;
-   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+    width: 20%;
     margin: 2% ;
-    padding: 5% 2%;
-    border-radius: 2vw;
+    padding: 3% 2%;
+    background-size: cover;
+    background-color: white;
 
 }
 .satisfaction{
-      
     text-align:center;
-    width: 15%;
-   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
-    margin: 2% ;
-    padding: 5% 2%;
-    border-radius: 2vw;
+    width: 20%;
+    padding: 3% 2%;
     background-color: #23A6F0;
     color: white;
+}
+header{
+    background-image:url('/images/hero-cover.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
 }
