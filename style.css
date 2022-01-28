@@ -210,3 +210,57 @@ header{
     font-weight: bold;
     font-size: 150%;
 }
+.list {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10%;
+}
+#free {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+#standard{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#premium{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.free{
+    border: 1px solid green;
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    padding: 3%;
+
+}
+.standard{
+    border: 1px solid green;
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    padding: 3%;
+}
+.premium{
+    border: 1px solid green;
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    padding: 1%;
+}
