@@ -293,10 +293,14 @@ header{
     display: flex;
     justify-content: space-between;
     margin: 10%;
+    padding-top: 10%;
 }
 .world{
     display: flex;
     flex-direction: column;
+    color: white;
+    font-family: 'montserrat';
+    
 }
 .form {
     border-radius: 5px;
@@ -325,12 +329,15 @@ header{
   }
   
   input[type=submit] {
-    background-color: #252B42;
+    background-color: #23A6F0;
     color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
+    padding: 12px;
+    border-radius: 8px;
     cursor: pointer;
+    margin-top: 5%;
+    width: 80%;
+    margin-left: 5%;
+    border: none;
     
   }
   .col-25 {
@@ -358,4 +365,7 @@ header{
       margin-top: 0;
     }
   }    
-  
+  .countries{
+      background-color: #252B42;
+      height: 900px;
+  }
