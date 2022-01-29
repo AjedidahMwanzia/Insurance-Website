@@ -11,7 +11,7 @@
 + [Authors Info](#author-Info)
 
 ### Description 
-The website is meant to help the users/prospective clients access our insurance products/services  remotely. It showcases   the available products packages on our site for the individuals to view and choose based on their capability.We have the free plan, standard and premium all based on your financial capacity.For you to access the above mentioned services you click try for free button for you to get a 30day trial basis access to our services through registering your name and email address and then from there based on your experience you can choose which products is most suited for your needs. Here is live demo link 
+The website is meant to help the users/prospective clients access our insurance products/services  remotely. It showcases   the available products packages on our site for the individuals to view and choose based on their capability.We have the free plan, standard and premium all based on your financial capacity.For you to access the above mentioned services you click try for free button for you to get a 30day trial basis access to our services through registering your name and email address and then from there based on your experience you can choose which products is most suited for your needs. Here is live demo link https://ajedidahmwanzia.github.io/Insurance-Website/
 
 
 ## Installation
