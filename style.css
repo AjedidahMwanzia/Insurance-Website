@@ -416,3 +416,16 @@ header{
 .media{
     padding-top: 1%;
 }
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    img { max-width: 100%; height: auto; }
+    html { font-size:100%; }
+    }  
+
+
+
+@media screen and (min-width: 400px) {
+    #primary { width:100%; }
+    img { max-width: 100%; height: auto; }
+    html { font-size:100%; }
+}
