@@ -404,3 +404,15 @@ header{
 .footer ul{
     list-style: none;
 }
+.social{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'montserrat';
+    color: #252B42;
+    background-color:  rgb(243, 241, 241);
+    height: 10%;
+   
+}
+.media{
+    padding-top: 1%;
+}
