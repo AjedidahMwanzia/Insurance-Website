@@ -203,6 +203,58 @@ button{
     box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
         
 }
+/*..............................................................*/
+
+@media only screen and (max-width: 500px){
+    .empty{
+        background-color: rgb(243, 241, 241);
+        height: 10vw;
+    }
+    .container {
+        
+            width: 100%;
+            height: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: -17%;
+          
+           
+    }
+    .peace{
+        text-align:left;
+        width: 20%;
+        margin: 2% ;
+        padding: 2% 2%;
+        background-color: white;
+        box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+        color: #252B42;   
+        
+         
+    }
+    .life{
+        text-align:left;
+        width: 20%;
+        margin: 2% ;
+        padding: 2% 2%;
+        background-size: cover;
+        background-color: white;
+        box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+        color: #252B42; 
+    
+    }
+    .satisfaction{
+        text-align:left;
+        width: 20%;
+        padding: 2% 2%;
+        background-color: #23A6F0;
+        color: white;
+        box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+            
+    }
+}
+/*..............................................................*/
 
 .body{
     width: 100%;
