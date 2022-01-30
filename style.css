@@ -156,6 +156,10 @@ button{
     }
 }
 /*..............................................................*/
+.empty{
+    background-color: rgb(243, 241, 241);
+    height: 10vw;
+}
 .container {
     
         width: 100%;
@@ -164,12 +168,12 @@ button{
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        margin-top: -6%;
+        margin-top: -17%;
       
        
 }
 .peace{
-    text-align:center;
+    text-align:left;
     width: 20%;
     margin: 2% ;
     padding: 2% 2%;
@@ -180,7 +184,7 @@ button{
      
 }
 .life{
-    text-align:center;
+    text-align:left;
     width: 20%;
     margin: 2% ;
     padding: 2% 2%;
@@ -191,7 +195,7 @@ button{
 
 }
 .satisfaction{
-    text-align:center;
+    text-align:left;
     width: 20%;
     padding: 2% 2%;
     background-color: #23A6F0;
