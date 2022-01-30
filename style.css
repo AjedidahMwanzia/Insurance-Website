@@ -1,7 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 .header{
     display: flex;
     justify-content: space-around;
     color: white;
+}
+header{
+    background-image: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+    ),
+    url("images/hero-cover.png");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:50vw ;
+    width: 100%;
+    
 }
 button{
     background-color: #23A6F0;
@@ -55,8 +74,8 @@ button{
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        margin-top: 3%;
-       
+        margin-top: -6%;
+      
        
 }
 .peace{
@@ -90,14 +109,7 @@ button{
     box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
         
 }
-header{
-    background-image:url('images/hero-cover.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:800px ;
-    width: 100%;
-    
-}
+
 .body{
     width: 100%;
     height: 800px;
@@ -164,8 +176,9 @@ header{
 
 .industry{
     background-color: rgb(243, 241, 241);
-    height: 100%;
+    width: 100%;
     background-size: cover;
+    height: auto;
 
 }
 .images{
@@ -240,7 +253,7 @@ header{
     flex-wrap: wrap;
 }
 .free{
-    border: 1px solid green;
+    border: 1px solid blue;
     border-radius: 10px;
     width: 15%;
     text-align: center;
@@ -252,7 +265,7 @@ header{
 
 }
 .standard{
-    border: 1px solid green;
+    border: 1px solid blue;
     border-radius: 10px;
     width: 15%;
     text-align: center;
@@ -266,7 +279,7 @@ header{
    
 }
 .premium{
-    border: 1px solid green;
+    border: 1px solid blue;
     border-radius: 10px;
     width: 15%;
     text-align: center;
@@ -363,14 +376,6 @@ header{
     display: table;
     clear: both;
   }
-  
-  
-  @media screen and (max-width: 600px) {
-    .col-25, .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-  }    
   .countries{
       background-color: #252B42;
       height: 900px;
@@ -410,22 +415,11 @@ header{
     font-family: 'montserrat';
     color: #252B42;
     background-color:  rgb(243, 241, 241);
+    width: 100%;
+    height: auto;
     
    
 }
 .media{
     padding-top: 1%;
-}
-@media screen and (max-width: 1060px) {
-    #primary { width:67%; }
-    img { max-width: 100%; height: auto; }
-    html { font-size:100%; }
-    }  
-
-
-
-@media screen and (min-width: 400px) {
-    #primary { width:100%; }
-    img { max-width: 100%; height: auto; }
-    html { font-size:100%; }
 }
