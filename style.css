@@ -396,66 +396,54 @@ button{
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    text-align: left;
     justify-content: center;
     margin-top: 10%;
    position: relative;
   
 }
-#free {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    
-    
-}
 
-
-#standard{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-#premium{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 1vw;
-}
 .free{
-    border: 1px solid blue;
+    border: 1px solid #23A6F0;
     border-radius: 10px;
-    width: 15%;
-    text-align: center;
+    width: 17%;
+    height: auto;
+    text-align: left;
+    padding-left: 20px;
     box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
     background-color: white;
-    padding: 1%;
+    padding-top: 1%;
     color: #252B42;
+   
    
 
 }
 .standard{
-    border: 1px solid blue;
+    border: 1px solid #23A6F0;
     border-radius: 10px;
-    width: 15%;
-    text-align: center;
+    width: 17%;
+    height: auto;
+    text-align: left;
+    padding-left: 20px;
     box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
     background-color: rgb(10, 10, 63);
-    padding-left: 1%;
-    padding-top: 5%;
+     margin-top: -2vw;
+    padding-top :1%;
     color: 	rgb(255,255,255,0.7 );
-    padding-right: 1%;
+   
     
    
 }
 .premium{
-    border: 1px solid blue;
+    border: 1px solid #23A6F0;
     border-radius: 10px;
-    width: 15%;
-    text-align: center;
+    width: 17%;
+    height: auto;
+    text-align: left;
+    padding-left: 20px;
     box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
     background-color: white;
-    padding: 1%;
+    padding-top: 1%;
     color: #252B42;
    
     
@@ -464,18 +452,23 @@ button{
     width: 40%;
     margin: 15%;
     align-items: center;
-    margin-left: 30%;
+    margin-left: 20%;
 }
 .list h4{
     color:  #23A6F0;
     padding: 1vw;
+    text-align: center;
 }
 .list h3{
     color: rgb(0, 0, 0, 0.8);
     padding: 1vw;
+    text-align: center;
 }
-.list p{
-    padding: 5px;
+.list h6{
+   
+    text-align: center;
+    font-size: 17px;
+   padding-right: 15px;
 }
 .standard h3{
     color: rgb(255,255,255,0.8 );
