@@ -400,6 +400,7 @@ button{
     justify-content: center;
     margin-top: 10%;
    position: relative;
+  
 }
 #free {
     display: flex;
@@ -408,6 +409,8 @@ button{
     
     
 }
+
+
 #standard{
     display: flex;
     flex-direction: column;
@@ -417,6 +420,7 @@ button{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    padding: 1vw;
 }
 .free{
     border: 1px solid blue;
@@ -453,7 +457,7 @@ button{
     background-color: white;
     padding: 1%;
     color: #252B42;
-    
+   
     
 }
 .list button{
@@ -464,13 +468,19 @@ button{
 }
 .list h4{
     color:  #23A6F0;
+    padding: 1vw;
 }
 .list h3{
     color: rgb(0, 0, 0, 0.8);
+    padding: 1vw;
+}
+.list p{
+    padding: 5px;
 }
 .standard h3{
     color: rgb(255,255,255,0.8 );
 }
+/*..........................................................*/
 #countries {
     display: flex;
     justify-content: space-between;
@@ -617,4 +627,153 @@ button{
  padding-top: 1%;
 }
 
+ /*...............................................................*/
+ @media only screen and (max-width:500px) {
+    #countries {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10%;
+        padding-top: 10%;
+    }
     
+        #countries img{
+    
+        padding-right: 3vw;
+    }
+    .world{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        font-family: 'montserrat';
+       margin-left: 1vw;
+       padding-left: 4vw;
+        
+    }
+    .world  h3{
+        font-size: 2vw;
+        padding-bottom: 1vw;
+    }
+    .form {
+        border-radius: 5px;
+        background-color: white;
+        padding: 20px;
+        box-sizing: border-box;
+        width: 40%;
+        align-items: center;
+        align-content: center;
+        color: #252B42;
+       
+      }
+      #form {
+          display: flex;
+          justify-content: center;
+          margin-top: 10vw;
+         
+         
+      }
+      .form h3{
+          text-align: center;
+      }
+      .row{
+          padding-left: 4vw;
+      }
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+        color: #252B42;
+      }
+      
+      label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+      }
+      
+      input[type=submit] {
+        background-color: #23A6F0;
+        color: white;
+        padding: 12px;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-top: 5%;
+        width: 80%;
+        margin-left: 5%;
+        border: none;
+        
+      }
+      .col-25 {
+        float: left;
+        width: 85%;
+        margin-top: 6px;
+      }
+      
+      .col-75 {
+        float: left;
+        width: 85%;
+        margin-top: 6px;
+      }
+      
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .countries{
+          background-color: #252B42;
+          height: 900px;
+      }
+      .business {
+          margin-top: 30%;
+          display: flex;
+          justify-content: space-around;
+      }
+      .business button {
+          width: 10%;
+         margin-bottom: 2%;
+      }
+    #business{
+        color: #252B42;
+        padding-bottom: 3vw;
+    }
+    
+    #business h4{
+       font-size: 1.5vw;
+       padding-bottom: 7px;
+    }
+    .footer{
+       width: 100%;
+       display: flex;
+       justify-content: space-around;
+       color: #252B42;
+       font-family: 'montserrat';
+       height: auto;
+       padding: 5vw;
+    }
+    
+    .footer ul{
+        list-style: none;
+       
+    }
+    .footer li{
+        padding-top: 10px;
+    }
+    .social{
+        display: flex;
+        justify-content: space-around;
+        font-family: 'montserrat';
+        color: #252B42;
+        background-color:  rgb(243, 241, 241);
+        width: 100%;
+        height: auto;
+       
+       
+    }
+    .media{
+       
+     padding-top: 1%;
+    }
+    
+
+ }   
