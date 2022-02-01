@@ -521,7 +521,7 @@ mar
 .images{
 
     margin-top: 15%;
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: column;
   
@@ -529,7 +529,10 @@ mar
 .images img{
     margin-bottom:10vw ;
     height: 30vw;
-    padding-left: 12vw;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+     margin-left: 25vw; 
 }
 .subscribe {
     border: 1px solid white;
@@ -538,9 +541,9 @@ mar
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-  
+    margin-left: 0;
     background: linear-gradient( to right, rgb(7, 7, 119)  , rgb(180, 119, 180) );
-    height: 180px;
+    height: 200px;
     font-size: 20px;
   
 }
@@ -548,7 +551,7 @@ mar
     color: white;
     padding-top: 2vw;
     font-weight: bold;
-    font-size: 10vw;
+    font-size: 8vw;
 }
 .subscribe button{
     background: linear-gradient( 90deg , white 60% , #23A6F0 40%);
@@ -994,10 +997,12 @@ mar
     }
     .header{
         display: flex;
+        flex-direction: column;
         justify-content: space-around;
         color: black;
         padding-top: 2vw;
         background-color: rgb(243, 241, 241);
+        
     }
     header{
         background-image: linear-gradient(
@@ -1009,7 +1014,7 @@ mar
     
         background-repeat: no-repeat;
         background-size: cover;
-        height:200vw;
+        height:250vw;
         width: 100%;
         font-family: 'montserrat';
         
@@ -1018,6 +1023,7 @@ mar
         display: flex;
         justify-content: space-around;
         color: black;
+
     }
    
    
@@ -1032,12 +1038,16 @@ mar
     } 
     .home {
         
-        font-size: 20px;
+        font-size: 40px;
         display: flex;
         flex-direction: column;
         margin-top: 12vw;
         margin-bottom:20px ;
-       padding-right: 20vw;
+       align-items: center;
+       justify-content: center;
+    }
+    .home a{
+        padding-bottom: 3vw;
     }
     .cart{
         display: inline-block;
@@ -1049,10 +1059,13 @@ mar
         padding: 2vw;
         
     }
-    .brand span{
-        font-size: 20px;
+    .brand a:first-child{
+        font-size: 35px;
         font-weight: bold;
         padding-left:6vw;
+        padding-top: 4vw;
+       
+
       
     }
     .button{
