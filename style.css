@@ -77,9 +77,10 @@ justify-content: center;
 .button :last-child{
 background-color: transparent;
 border: 1px solid white;
-mar
+
 }  
 /*..............................................................*/
+
 .empty{
     background-color: rgb(243, 241, 241);
     height: 10vw;
@@ -142,7 +143,7 @@ mar
 
 /*..............................................................*/
 
-@media only screen and (max-width: 500px){
+@media screen and (max-width: 500px){
     .empty{
        display: none;
     }
@@ -420,7 +421,7 @@ mar
     color: rgb(255,255,255,0.8 );
 }
 /*..........................................................*/
-@media only screen and (max-width:500px) {
+@media screen and (max-width:500px) {
 .like{
     width: 100%;
     height: 800px;
@@ -825,7 +826,7 @@ mar
 }
 
  /*...............................................................*/
- @media only screen and (max-width:500px) {
+ @media  screen and (max-width:500px) {
     #countries {
         display: flex;
       flex-direction: column;
@@ -932,12 +933,14 @@ mar
           height: 900px;
       }
       .business {
-          margin-top: 30vw;
+        padding-top: 120vw;
           display: flex;
           justify-content: space-around;
+         
       }
       .business button {
-          width: 10%;
+          width: 15%;
+          height: 15%;
          margin-bottom: 2%;
       }
     #business{
@@ -946,17 +949,17 @@ mar
     }
     
     #business h4{
-       font-size: 1.5vw;
+       font-size: 4vw;
        padding-bottom: 7px;
     }
     .footer{
        width: 100%;
        display: flex;
-       justify-content: space-around;
+      
        color: #252B42;
        font-family: 'montserrat';
        height: auto;
-       padding: 5vw;
+       
     }
     
     .footer ul{
@@ -966,9 +969,26 @@ mar
     .footer li{
         padding-top: 10px;
     }
+    .company{
+padding: 1vw;
+    }
+    .legal{
+     padding: 1vw;
+            }
+     .features{
+          padding: 1vw;
+          }
+     .resources{
+            padding: 1vw;
+                }
+     .get{
+                    padding: 1vw;
+                        }
     .social{
         display: flex;
-        justify-content: space-around;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         font-family: 'montserrat';
         color: #252B42;
         background-color:  rgb(243, 241, 241);
@@ -989,7 +1009,7 @@ mar
  }   
 /*..............................................................*/
 
-@media only screen and (max-width: 500px){
+@media  screen and (max-width: 500px){
     * {
         box-sizing: border-box;
         margin: 0;
